@@ -1,0 +1,1926 @@
+body{
+    width: max-content;
+}
+.glavblock{
+    width: 1902px;
+    height: 5997px;
+    position:relative;
+    left: 0px;
+}
+#fon{
+    position: absolute; 
+    width: 1902px;
+}
+#fon2{
+    display: none;
+}
+#imgtop1{
+    position: absolute;
+    width: 361.46px;
+    height: 450px;
+    top: 40px;
+    left: 1190px;
+}
+#imgtop2{
+    position: absolute;
+    width: 361.46px;
+    height: 450px; 
+    top:432px; 
+    left: 412px;
+}
+#st2{
+    font-size: 27px; 
+    color:#0A1C20;
+}
+/*Меню*/
+.header{
+    width: 1902px;
+    height: 64px;
+    top: 0px;
+}
+.Obuch{
+    position: absolute;
+    width: 172px;
+    height: 30px;
+    left: 1049px;
+    top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFCFC;
+}
+.Naprav{
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 1250px;
+    top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFCFC;
+}
+.Price{
+    position: absolute;
+    width: 66px;
+    height: 30px;
+    left: 1442px;
+    top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFCFC;
+}
+.Contact{
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 1560px;
+    top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFCFC;
+}
+li {
+    list-style: none;
+    border-top: 1px solid black;
+    padding-left: 3px;
+}
+.menu-span{
+    display: none;
+    width: 82px;
+    height: 76px;
+    font-size: 12px;
+    position: absolute;
+    left: 457px;
+    top: 64px;
+    background-color: #7EC0DE;
+    transform: translateY(-100%);
+    transition: all 0.5s;
+}
+.menu-open{
+    display: none;
+    position: absolute;
+    left: 479px;
+    top: 20px;
+    background-color: #7EC0DE;
+    border: 0;
+}
+.menu-span.act{
+    display: block;
+    transform: translateY(0);
+}
+
+/*Логотип*/
+.logo1{
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 200px;
+    top: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFCFC;
+}
+#logo1id{
+    color:#FAFCFC; 
+    text-decoration:none
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -102px;
+    top: -30px;
+}
+/*UPGRADE*/
+.text {
+    width: auto;
+    height: auto;
+    position: relative;
+    
+}
+._anim-show{
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+._anim-show._active,
+._active ._anim-show{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.up{
+    position: relative;
+    width: 673px;
+    height: 176px;
+    left: 142px;
+    top: 190px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 180px;
+    line-height: 169px;
+    color: #7EC0DE;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.up._active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.txt{
+    position:relative;
+    width: 1365px;
+    height: 200px;
+    left: 152px;
+    top: 175px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 92px;
+    line-height: 110px;
+    color: #FAFCFC;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1s ease 0s;
+}
+.txt._active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.study{
+    width: 300px;
+    height: 100px;
+    background-color: #7EC0DE;
+    position: absolute;
+    border-radius: 30px;
+    left: 152px;
+    top: 651px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 1.2s ease 0s;
+}
+.study._active{
+    transform: translateX(0);
+    opacity: 1;
+}
+.txt-study-btn{
+    font-size: 20px; 
+    color:#0A1C20;
+}
+/*Об обучении*/
+.box-studyinfo{
+    position: absolute;
+    width: 1902px;
+    height: 709px;
+    left: 0px;
+    top: 919px;
+    padding: 0 0 0 30px;
+    text-align: center;
+    background: #7EC0DE;
+}
+.box-studyinfo i{
+    font-size: 25px;
+    color:#0A1C20 ;
+}
+#obuch_id{
+    color: #0A1C20; 
+    font-size: 92px;
+    margin-left: 85px;
+}
+.structure{
+    margin:20px 20px 20px 160px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #0A1C20;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    color:#0A1C20;
+}
+/*Напишите нам*/
+.write-us{
+    height: 340px;
+    width: 1902px;
+    background-color:#FAFCFC ;
+    position:absolute;
+    top: 1637px;
+}
+.kolvo{
+    position: absolute;
+    width: 970px;
+    height: 158px;
+    left: 300px;
+    top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color:#0A1C20;
+}
+#im{
+    width: 280px;
+}
+#fa{
+    width: 280px;
+}
+#em{
+    width: 280px;
+}
+.study1{
+    width: 350px;
+    height: 70px;
+    border: 3px solid #0A1C20;
+    position: absolute;
+    border-radius: 30px;
+    left: 1256px;
+    top: 196px;
+}
+/*Трудоустройство*/
+.trudous{
+    width: 1902px;
+    height: 900px;
+    background-color:#0A1C20 ;
+    position: absolute;
+    top: 1977px;
+}
+.div1{
+  width: auto;
+  height: auto;
+  /*position: relative;*/
+}
+.div2{
+  width: auto;
+  height: auto; 
+  /*position: relative;*/
+}
+/*Направления*/
+.naprav{
+    position: absolute;
+    height: 806px;
+    width: 1902px;
+    left: 0px;
+    top: 2877px;
+    background: #7EC0DE;
+    z-index: 2;
+}
+.flex-cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 50px;
+    padding-top: 70px;
+}
+.flex-cont2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 50px;
+    padding-right:50px ;
+    padding-top: 20px;
+}
+.box1{
+    width: 800px;
+    height: 300px;
+    background: #0A1C20;
+}
+.box2{  
+    width: 800px;
+    height: 300px;
+    background: #0A1C20;
+}
+.box3{
+    width: 800px;
+    height: 300px;
+    background: #0A1C20;
+}
+.box4{     
+    width: 800px;
+    height: 300px;
+    background: #0A1C20;
+}
+/*Партнеры*/
+.our_friends{
+   width: 1500px; 
+   height: 900px;
+   position: relative;
+   top: 3243px;
+   padding: 50px;
+}
+.logo-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    position:relative; 
+    top: 50px;
+    left: 200px;
+}
+.flex-elem1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+}
+.scale{
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.2);
+}
+/*Цены*/
+.price{
+    width: 1902px;
+    height: 911px;
+    position: relative;
+    top: 3243px;
+    background-color: #0A1C20;
+}
+.stoimost{
+    position: relative;
+    width: 1069px;
+    height: 689px;
+    left: 82px;
+    top: 82px;
+    background: #7EC0DE;
+}
+.box-input{
+    position: relative;
+    width: 535px;
+    height: 689px;
+    left: 1243px;
+    top: -607px;
+    background: #7EC0DE;
+}
+
+.study2{
+    width: 350px;
+    height: 70px;
+    border: 3px solid #0A1C20;
+    position: relative;
+    left: 92px;
+    bottom: 25px;
+}
+.fotki{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top: 3243px;
+    background-color: #0A1C20;
+}
+/*Контакты*/
+.contact{
+    width: 1902px;
+    height: 500px;
+    position: relative;
+    top: 3242px;
+    background-color: #0A1C20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-info{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    left: 100px;
+}
+.maps{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.imya{
+    font-size:20px;
+    color:#a7a1a1; 
+    position: absolute;
+     left: 300px;
+     top: 200px;
+}
+.familia{
+    font-size:20px;
+    color:#a7a1a1;
+    position: absolute;
+    left: 618px;
+    top: 200px;   
+}
+.elpochta{
+    font-size:20px;
+    color:#a7a1a1;
+    position: absolute;
+    left: 943px;
+    top: 200px;
+}
+.img-top{
+    position: absolute;
+    width: 858px;
+    height: 300px;
+    left: 318px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FAFCFC;
+    top: 60px;
+
+}
+
+
+.img-developer{
+    position: absolute;
+    width: 671px;
+    height: 283px;
+    left: 892px;
+    top:533px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+
+}
+
+.stroka1{
+    position: relative;
+    left: 185px;
+    text-align: center;                   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #0A1C20;
+}
+.stroka2{
+    position:relative;
+    left: 185px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000AD;
+}
+.prof{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    margin:40px;
+    color: #FFFFFF; 
+}
+.devprof{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 64px;
+    margin:40px;
+    color: #FFFFFF; 
+}
+.podrob{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-right: 23px;
+    margin-top: 79px;
+    line-height: 23px;
+    color: #FFFFFF; 
+    text-align: right;
+}
+.stoimost1{
+    position: relative;
+    width: 974px;
+    height: 408px;
+    left: 136px;
+    top: 48px;font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px; 
+    color:#0A1C20;  
+}
+.rasrochka{
+    position: relative;
+    left: 136px;
+    top: -160px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 40px; 
+    color:#0A1C20; 
+}
+.prirasrochke{
+    position: relative;
+    left: 136px;
+    top: -170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px; 
+    color:#0A1C20;
+}
+.result{
+    position:relative;
+    left: 140px;
+    top: -90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000AD;
+}
+.diplom{
+    position: relative;
+    left: 140px;
+    top: -102px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px; 
+    color:#0A1C20
+}
+.garant{
+    position:relative;
+    left: 600px;
+    top: -275px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    color: #000000AD;
+}
+.trudoustr{
+    position: relative;
+    left: 600px;
+    top: -287px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color:#0A1C20;
+}
+.zayavka{
+    position: relative;
+    top: 20px;
+    left: 90px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 56px; 
+    color:#0A1C20
+}
+.vibor-naprav{
+    font-size:28px;
+    color:#0A1C20; 
+    position: relative;
+    left: 80px; 
+}
+.vibor-prof{
+    font-size:20px;
+    color:#000000AD; 
+    position: relative; 
+    left: 80px; 
+}
+.imya1{
+    font-size:28px;
+    color:#000000AD;
+    position: relative; 
+    left: 80px;
+    top: -10px;
+}
+.familia1{
+    font-size:28px;
+    color:#000000AD;
+    position: relative;
+    left: 80px;
+    top: -25px;
+}
+.elpochta1{
+    font-size:28px;
+    color:#000000AD;
+    position: relative;
+    left: 80px;
+    top: -35px;
+}
+.mail-svyaz{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 64px;
+    color: #FFFFFF;
+    position: relative;
+    top: 125px;
+    left: 145px;   
+}
+.upgrade-prava{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 64px;
+    color: #FFFFFF;
+    position: relative;
+    top: 255px;
+    left: 145px;  
+}
+.moi-adres{
+    width: max-content;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 64px;
+    color: #FFFFFF;
+    position: relative;
+    left: 45px;
+}
+.logo2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FAFCFC;
+    position: absolute;
+    left: 57px;
+}
+
+/* Response */
+@media screen and (max-width: 1440px) {
+    .glavblock {
+        width: 1280px;
+        height: 4848px;
+    }
+    #fon{
+        width: 1280px; 
+    }
+    .header{
+        width: 1280px;
+    }
+    .Obuch {   
+        width: max-content; 
+        left: 633px;  
+    }
+    .Naprav {
+        width: max-content;
+        left: 779px;
+    }
+    .Price {
+        width: max-content;
+        left: 974px; 
+    }
+    .Contact {
+        width: max-content;
+        left: 1090px;
+    }
+    .up {
+        position: relative;
+        width: 673px;
+        height: 176px;
+        left: 96px;
+        top: 69px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 130px;
+        line-height: 169px;
+        color: #7EC0DE;
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+    }
+    .txt {
+        position: relative;
+        width: 800px;
+        height: 200px;
+        left: 96px;
+        top: 20px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 62px;
+        line-height: 70px;
+        color: #FAFCFC;
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: all 1s ease 0s;
+    }
+    .study {
+        width: 240px;
+        height: 63px;
+        background-color: #7EC0DE;
+        position: absolute;
+        border-radius: 30px;
+        left: 96px;
+        top: 361px;
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: all 1.2s ease 0s;
+    }
+    .box-studyinfo{
+        width: 1280px;
+        top: 633px;
+    }
+    .write-us {
+        height: 275px;
+        width: 1280px;
+        background-color: #FAFCFC;
+        position: absolute;
+        top: 1343px;
+    }
+    .kolvo {
+        position: absolute;
+        width: 715px;
+        height: 158px;
+        left: 280px;
+        top: 20px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 51px;
+        line-height: 54px;
+        color: #0A1C20;
+    }
+    .imya {
+        font-size: 20px;
+        color: #a7a1a1;
+        position: absolute;
+        left: 100px;
+        top: 160px;
+    }
+    .familia {
+        font-size: 20px;
+        color: #a7a1a1;
+        position: absolute;
+        left: 400px;
+        top: 160px;
+    }
+    .elpochta {
+        font-size: 20px;
+        color: #a7a1a1;
+        position: absolute;
+        left: 698px;
+        top: 160px;
+    }
+    .study1 {
+        width: 225px;
+        height: 41px;
+        border: 2px solid #0A1C20;
+        position: absolute;
+        border-radius: 30px;
+        left: 1007px;
+        top: 186px;
+    }
+    .trudous {
+        width: 1280px;
+        height: 630px;
+        background-color: #0A1C20;
+        position: absolute;
+        top: 1620px;
+    }
+    .img-top {
+        position: absolute;
+        width: 636px;
+        height: 178px;
+        left: 170px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 36px;
+        color: #FAFCFC;
+        top: 80px;
+    }
+    #imgtop1 {
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        top: 40px;
+        left: 860px;
+    }
+    .img-developer {
+        position: absolute;
+        width: 591px;
+        height: 151px;
+        left: 509px;
+        top: 374px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+    #imgtop2{ 
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        top: 292px;
+        left: 183px;
+    }
+    .naprav {
+        position: absolute;
+        height: 600px;
+        width: 1280px;
+        left: 0px;
+        top: 2250px;
+        background: #7EC0DE;
+        z-index: 2;
+    }
+    .box1 {
+        width: 553px;
+        height: 190px;
+        background: #0A1C20;
+    }
+    .box2 {
+        width: 553px;
+        height: 190px;
+        background: #0A1C20;
+    }
+    .box3 {
+        width: 553px;
+        height: 190px;
+        background: #0A1C20;
+    }
+    .box4 {
+        width: 553px;
+        height: 190px;
+        background: #0A1C20;
+    }
+    .prof {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 33px;
+        margin: 15px 25px;
+        color: #FFFFFF;
+    }
+    .devprof {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 64px;
+        margin: 10px 35px 10px;
+        color: #FFFFFF;
+    }
+    .podrob {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        margin-right: 35px;
+        margin-top: 19px;
+        line-height: 23px;
+        color: #FFFFFF;
+        text-align: right;
+    }
+    .our_friends {
+        width: 1161px;
+        height: 900px;
+        position: relative;
+        top: 2377px;
+        padding: 50px;
+    }
+    .stroka1 {
+        position: relative;
+        left: 49px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 62px;
+        line-height: 62px;
+        text-align: center;
+        color: #0A1C20;
+    }
+    .stroka2 {
+        position: relative;
+        left: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        color: #000000AD;
+    }
+    .logo-cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+        position: relative;
+        top: 10px;
+        left: 49px;
+    }
+    .price {
+        width: 1280px;
+        height: 630px;
+        position: relative;
+        top: 2379px;
+        background-color: #0A1C20;
+    }
+    .stoimost {
+        position: relative;
+        width: 733px;
+        height: 415px;
+        left: 70px;
+        top: 50px;
+        background: #7EC0DE;
+    }
+    .stoimost1 {
+        position: relative;
+        width: 974px;
+        height: 408px;
+        left: 18px;
+        top: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 62px;
+        line-height: 65px;
+        color: #0A1C20;
+    }
+    .rasrochka {
+        position: relative;
+        left: 18px;
+        top: -278px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 29px;
+        color: #0A1C20;
+    }
+    .prirasrochke {
+        position: relative;
+        left: 18px;
+        top: -284px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 26px;
+        color: #0A1C20;
+    }
+    .result {
+        position: relative;
+        left: 18px;
+        top: -270px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000000AD;
+    }
+    .diplom {
+        position: relative;
+        left: 18px;
+        top: -287px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
+        line-height: 40px;
+        color: #0A1C20;
+    }
+    .garant {
+        position: relative;
+        left: 370px;
+        top: -421px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 40px;
+        color: #000000AD;
+    }
+    .trudoustr {
+        position: relative;
+        left: 370px;
+        top: -437px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 40px;
+        color: #0A1C20;
+    }
+    .box-input {
+        position: relative;
+        width: 329px;
+        height: 526px;
+        left: 876px;
+        top: -364px;
+        background: #7EC0DE;
+    }
+    .zayavka {
+        position: relative;
+        top: 10px;
+        left: 41px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 56px;
+        color: #0A1C20;
+    }
+    .vibor-naprav {
+        font-size: 24px;
+        color: #0A1C20;
+        position: relative;
+        left: 25px;
+        bottom: 16px;
+    }
+    .vibor-prof {
+        font-size: 16px;
+        color: #000000AD;
+        position: relative;
+        left: 43px;
+        bottom: 24px;
+    }
+    .imya1 {
+        font-size: 17px;
+        color: #000000AD;
+        position: relative;
+        left: 43px;
+        top: -32px;
+    }
+    .familia1 {
+        font-size: 17px;
+        color: #000000AD;
+        position: relative;
+        left: 43px;
+        top: -41px;
+    }
+    .elpochta1 {
+        font-size: 17px;
+        color: #000000AD;
+        position: relative;
+        left: 43px;
+        top: -50px;
+    }
+    .study2 {
+        width: 176px;
+        height: 36px;
+        border: 3px solid #0A1C20;
+        position: relative;
+        left: 67px;
+        bottom: 47px;
+    }
+    #st2{
+        font-size: 18px;
+    }
+    
+    .contact {
+        width: 1280px;
+        height: 466px;
+        position: relative;
+        top: 2378px;
+        background-color: #0A1C20;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .contact-info {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        left: 100px;
+    }
+    .logo2 {
+        position: absolute;
+        width: 118px;
+        height: 30px;
+        left: 45px;
+        top: 56px;
+        color: #FAFCFC;
+    }
+    .logo1 {
+        position: absolute;
+        width: 118px;
+        height: 30px;
+        left: 145px;
+        top: 56px;
+        color: #FAFCFC;
+    }
+    .mail-svyaz {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 37px;
+        color: #FFFFFF;
+        position: relative;
+        top: 142px;
+        left: -45px;
+    }
+    .upgrade-prava {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 64px;
+        color: #FFFFFF;
+        position: relative;
+        top: 283px;
+        left: -40px;
+    }
+    .maps {
+        width: 100%;
+        height: 433px;
+        position: relative;
+        right: 69px;
+        top: 31px;
+    }
+    .moi-adres {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 45px;
+        color: #FFFFFF;
+        position: relative;
+        left: 68px;
+    }
+
+    .map {
+        display: block;
+        width: 685px;
+        height: 277px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .glavblock {
+        width: 1140px;
+    }
+    #fon{
+        width: 1140px; ;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .glavblock {
+        width: 960px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .glavblock {
+        width: 834px;
+        height: 4640px;
+    }
+    #fon{
+        width: 834px;
+        height: 465px;
+    }
+    .header{
+        width: 834px;
+    }
+    .Obuch{
+        left: 417px;
+        top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+      
+    }
+    .Naprav{
+        left: 525px;
+        top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .Price{
+        left: 659px;
+        top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .Contact{
+        left: 741px;
+        top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .logo{
+        width: 67px;
+        height: 62px;
+
+        left: -70px;
+        top: -18px;
+    }
+    .logo1{
+        position: absolute;
+        width: 118px;
+        height: 30px;
+        left: 89px;
+        top: 35px;
+        font-size: 20px;
+        color: #FAFCFC;
+    }
+    .up{
+        position: absolute;
+        width: 302px;
+        height: 70px;
+        left: 45px;
+        top: 50px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 75px;
+    }
+    .txt{
+        position: absolute;
+        width: 457px;
+        height: 76px;
+        left: 45px;
+        top: 120px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FAFCFC;
+    }
+    .study{
+        position: absolute;
+        width: 218px;
+        height: 44px;
+        left: 45px;
+        top: 210px;
+        background: #7EC0DE;
+        border-radius: 30px;
+    }
+    .box-studyinfo{
+        position: absolute;
+        width: 834px;
+        height: 730px;
+        left: 0px;
+        top: 465px;
+    }
+    #obuch_id{
+        margin-top: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 11px;
+        color: #0A1C20;
+        margin-top: 40px;
+        margin-left: 13px;
+    }
+    .structure{
+        margin: 20px 20px 20px 127px;
+    }
+    #tr{
+        display: none;
+    }
+    .write-us{
+        width: 834px;
+        height: 350px;
+        top: 1194px;
+    }
+    .kolvo{
+        position: absolute;
+        width: 579px;
+        height: 94px;
+        left: 135px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        color: #000000;
+    }
+    .imya{
+        position: absolute;
+        left: 181px;
+        top: 130px;
+    }
+    .familia{
+        position: absolute;
+        left: 371px;
+        top: 130px;
+    }
+    .elpochta{
+        position: absolute;
+        left: 181px;
+        top: 200px;
+    }
+    #im{
+        width: 170px;
+    }
+    #fa{
+        width: 230px;
+    }
+    #em{
+        width: 420px;
+    }
+    .study1{
+        left: 260px;
+        top: 288px;
+        border-radius: 0;
+    }
+    .trudous{
+        width: 834px;
+        height: 480px;
+        top: 1544px;
+    }
+    .img-top{
+        position: absolute;
+        width: 442px;
+        height: 224px;
+        left: 66px;
+        top: 33px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FAFCFC;
+    }
+    #imgtop1{
+        position: absolute;
+        width: 190px;
+        height: 210px;
+        left: 549px;
+    }
+    .img-developer{
+        position: absolute;
+        width: 375px;
+        height: 165px;
+        left: 359px;
+        top: 279px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    #imgtop2{
+        width: 200px;
+        height: 220px;
+        left: 108px;
+        top: 243px;
+    }
+    .naprav{
+        width: 834px;
+        height: 919px;
+        top: 2024px;
+    }
+    .flex-cont1{
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 46px;
+    }
+    .flex-cont2{
+        flex-direction: column;
+        padding-top: 0px;
+        padding-left: 40px;
+    }
+    .box1{   
+        width: 582px;
+        height: 177px;
+        margin-left: 76px;
+    }
+    .box2{   
+        width: 582px;
+        height: 177px;
+        margin-left: 76px;
+        margin-top: 40px;
+    }
+    .box3{   
+        width: 582px;
+        height: 177px;
+        margin-left: 76px;
+    }
+    .box4{   
+        width: 582px;
+        height: 177px;
+        margin-left: 76px;
+        margin-top: 40px;
+    }
+    .prof{
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .devprof{
+        font-size: 32px;
+        text-align: center;
+    }
+    .our_friends{
+        top: 2879px;
+        padding-top: 15px;
+        width: 834px;
+        height: 789px;
+    }
+    .stroka1{   
+        width: 487px;
+        height: 104px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        margin-left: 71px;
+        margin-bottom: -3px;
+    }
+    .stroka2{   
+        width: 568px;
+        height: 46px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .logo-cont{
+        width: 532px;
+        left: 86px;
+        margin: 0px;
+    }
+    .flex-elem1{
+        width: 236px;
+        height: 62px;
+    }
+    .price{
+        top: 2879px;
+        width: 834px;
+        height: 782px;
+    }
+    .stoimost{
+        width: 621px;
+        height: 365px;
+        left: 106px;
+        top: 34px;
+    }
+    .stoimost1{
+        font-size: 50px;
+        width: 377px;
+        height: 98px;
+    }
+    .rasrochka{
+        left: 18px;
+        top: 20px;
+    }
+    .prirasrochke{
+        left: 18px;
+        top: 5px;
+    }
+    .result{
+        left: 18px;
+        top: 0px;
+    }
+    .diplom{
+        left: 18px;
+        top: -20px;
+        font-size: 32px;
+    }
+    .garant{
+        width: max-content;
+        left: 330px;
+        top: -152px;
+    }
+    .trudoustr{
+        width: max-content;
+        left: 330px;
+        top: -173px;
+        font-size: 32px;
+    }
+    .box-input{
+        left: 245px;
+        top: 60px;
+        height: 326px;
+    }
+    .vibor-naprav{
+        display: none;
+    }
+    .vibor-prof{
+        display: none;
+    }
+    .zayavka{
+        margin-bottom: 40px;
+    }
+    .contact{
+        top: 2878px;
+        width: 834px;
+        height: 127px;
+    }
+    .contact-info{
+        width: 400px;
+        position: absolute;
+        left: 267px;
+        top: -68px;
+    }
+    .logo2{
+        display:none;
+    }
+    .mail-svyaz{ 
+        font-size: 18px;
+        line-height: 15px;
+        top: 92px;
+        left: 10px;
+    }
+    .upgrade-prava{
+        top: 80px;
+        left: 57px;
+    }
+    .maps{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .glavblock {
+        width: 540px;
+        height: 3676px
+    }
+    #fon{
+        display: none;
+    }
+    #fon2{
+        display: block;
+        position: absolute;
+    }
+    .header{
+        width: 540px;
+        background-color: #7EC0DE;
+        position: absolute;
+    }
+    .Obuch{
+        display: none;
+    }
+    .Naprav{
+        display: none;
+    }
+    .Price{
+        display: none;
+    }
+    .Contact{
+        display: none;
+    }
+
+    .logo1{
+        left: 67px;
+        top: 22px;
+        font-size: 20px;
+    }
+    #logo1id{
+        color: black;
+    }
+    .logo{
+        width: 54px;
+        height: 54px;
+        left: -57px;
+        top: -15px;
+    }
+    .menu-open{
+        display: block;
+    }
+    .text{
+        top: 17px;
+    }
+    .up{
+        font-size: 50px;
+        left: 145px;
+    }
+    .txt{
+        font-size: 24px;
+        text-align: center;
+        left: 40px;
+        top: 105px;
+    }
+    .study{
+        width: 160px;
+        height: 35px;
+        left: 186px;
+        top: 189px;
+    }
+    .box-studyinfo{
+        width: 540px;
+        height: 1030px;
+        top: 371px;
+    }
+    #obuch_id{
+        margin-top: 35px;
+        margin-left: 0px;
+        font-size: 36px;
+    }
+    .txt-study-btn{
+        font-size: 16px;
+    }
+    .structure{
+        margin-left: 209px;
+        width: 50px;
+        height: 50px;
+    }
+    .col-xxl-4, .col-md-6, .col-sm-12{
+        margin-left: -27px;
+    }
+    #txt-icon{
+        font-size: 16px;
+    }
+    .write-us{
+        width: 540px;
+        height: 330px;
+        top: 1401px;
+    }
+    .kolvo{
+        width: 378px;
+        font-size: 28px;
+        line-height: 36px;
+        top: 10px;
+        left: 90px;
+    }
+    .imya{
+        top: 85px;
+        left: 155px;
+        font-size: 16px;
+    }
+    #im{
+        width: 230px;
+    }
+    .familia{
+        top: 144px;
+        left: 155px;
+        font-size: 16px;
+    }
+    .elpochta{
+        top: 203px;
+        left: 155px;
+        font-size: 16px;
+    }
+    #em{
+        width: 230px;
+    }
+    .study1{
+        width: 150px;
+        height: 35px;
+        left: 194px;
+        top: 277px;
+    }
+    .trudous{
+        display: none;
+    }
+    .naprav{
+        width: 540px;
+        height: 580px;
+        top: 1731px;
+    }
+    .box1{
+        width: 368px;
+        height: 93px;
+        margin-left: 42px;
+    }
+    .box2{
+        width: 368px;
+        height: 93px;
+        margin-left: 42px;
+    }
+    .box3{
+        width: 368px;
+        height: 93px;
+        margin-left: 42px;
+    }
+    .box4{
+        width: 368px;
+        height: 93px;
+        margin-left: 42px;
+    }
+    .prof{
+        font-size: 14px;
+        margin: 5px 25px;
+    }
+    .devprof{
+        font-size: 22px;
+        margin: -26px 35px 0px;
+    }
+    .podrob{
+        font-size: 10px;
+        margin-right: 160px;
+        margin-top: -18px;
+    }
+    .our_friends{
+        width: 540px;
+        height: 656px;
+        padding-top: 10px;
+        top: 2311px;
+    }
+    .stroka1{
+        font-size: 32px;
+        line-height: 34px;
+        width: 338px;
+        height: 70px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .stroka2{
+        width: 455px;
+        height: 46px;
+        font-size: 18px;
+        margin-left: -52px;
+    }
+    .logo-cont{
+        width: 420px;
+        left: 11px;
+        top: -7px;
+    }
+    .flex-elem1{
+        width: 180px;
+        height: 50px;
+    }
+    .price{
+        top: 2311px;
+        width: 540px;
+        height: 582px;
+    }
+    .stoimost{
+        width: 500px;
+        height: 259px;
+        left: 20px;
+        top: 20px;
+    }
+    .stoimost1{
+        font-size: 30px;
+        width: 229px;
+        height: 75px;
+        line-height: 40px;
+    }
+    .rasrochka{
+        font-size: 18px;
+        line-height: 20px;
+        top: 0px;
+        width: 300px;
+        height: 40px;
+    }
+    .prirasrochke{
+        font-size: 12px;
+        left: 18px;
+        top: -17px;
+        width: 150px;
+        height: 26px;
+    }
+    .result{
+        font-size: 21px;
+        top: -30px;
+    }
+    .diplom{
+        width: max-content;
+        left: 18px;
+        top: -51px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .garant{
+        font-size: 21px;
+        left: 265px;
+        top: -162px;
+    }
+    .trudoustr{
+        left: 265px;
+        top: -183px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .box-input{
+        left: 157px;
+        top: 40px;
+        height: 261px;
+        width: 227px;
+    }
+    .zayavka{
+        font-size: 20px;
+        top: 0px;
+        left: 30px;
+    }
+    .imya1{
+        left: 20px;
+        top: -50px;
+        font-size: 13px;
+    }
+    .familia1{
+        left: 20px;
+        top: -60px;
+        font-size: 13px;
+    }
+    .elpochta1{
+        left: 20px;
+        top: -70px;
+        font-size: 13px;
+    }
+    .study2{
+        left: 52px;
+        bottom: 70px;
+        width: 116px;
+        height: 30px;
+    }
+    #st2{
+        font-size: 14px;
+    }
+    .contact{
+        width: 540px;
+        top: 2310px;
+    }
+    .contact-info{
+        width: 267px;
+        left: 143px;
+        top: -86px;
+    }
+    .upgrade-prava{
+        height: max-content;
+        top: 99px;
+        left: -130px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .glavblock {
+        width: 320px;
+    }
+    
+}
